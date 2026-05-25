@@ -1,6 +1,6 @@
-# 📌 Sistema de Registro de Ocorrências
+# Sistema de Registro de Ocorrências
 
-Este projeto consiste em um sistema completo de gerenciamento e registro de chamados e ocorrências, desenvolvido para otimizar o fluxo de suporte do departamento de informática de uma empresa. O software foi projetado e implementado seguindo rigorosamente as melhores práticas de Engenharia de Software, padrões de arquitetura modernos e os princípios da metodologia ágil.
+Este projeto consiste em um sistema completo de gerenciamento e registro de chamados e ocorrências, desenvolvido para otimizar o fluxo de suporte do departamento de informática de uma empresa.
 
 ## Funcionalidades Implementadas
 
