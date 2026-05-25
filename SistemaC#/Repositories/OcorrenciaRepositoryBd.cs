@@ -8,7 +8,7 @@ namespace SistemaOcorrencias.Repositories
     public class OcorrenciaRepositoryBd : IOcorrenciaRepository
     {
         
-        private readonly string _connectionString = "Host=localhost;Port=5432;Username=postgres;Password=2402;Database=linguagem2";
+        private readonly string _connectionString = "Host=localhost;Port=5432;Username=postgres;Password=COLOQUE_SUA_SENHA_AQUI;Database=NOME_DO_BANCO_AQUI";
 
         public void Salvar(Ocorrencia ocorrencia)
         {
