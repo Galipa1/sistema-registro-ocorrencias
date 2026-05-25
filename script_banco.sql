@@ -50,16 +50,17 @@ CREATE TABLE Ocorrencia (
 );
 
 
--- Inserindo 2 novos departamentos 
+-- Inserindo os 3 departamentos do sistema 
 INSERT INTO Departamento (codigo, nome, descricao, status) 
 VALUES 
+('TI', 'Tecnologia', 'Suporte e Infraestrutura', true),
 ('RH', 'Recursos Humanos', 'Gestão de pessoas e folha de pagamento', true),
 ('FIN', 'Financeiro', 'Gestão de contas e pagamentos', true);
 
 -- Inserindo os integrantes do grupo e associando aos departamentos
 INSERT INTO Funcionario (matricula, nome, status, id_departamento) 
 VALUES 
-(12345, 'Gabriel', true, 1), -- Gabriel no TI (ID 1)
+(12345, 'Gabriel', true, 1),  -- Gabriel no TI (ID 1)
 (22222, 'Leonardo', true, 1), -- Leonardo no TI (ID 1)
 (33333, 'Danilo', true, 2),   -- Danilo no RH (ID 2)
 (44444, 'Bruno', true, 3),    -- Bruno no Financeiro (ID 3)
