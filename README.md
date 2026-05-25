@@ -39,5 +39,7 @@ O repositório foi estruturado para documentar visualmente todas as etapas de de
 * **Modelagem de Artefatos:** Draw.io (Linguagens Mermaid e PlantUML)
 * **Gestão do Fluxo:** Trello
 
+* **[💻 Visualizar Código-Fonte C#](./SistemaC#)** 
+
 ---
 *Projeto desenvolvido como avaliação prática para a disciplina de Engenharia de Software.*
